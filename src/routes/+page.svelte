@@ -1,7 +1,19 @@
 <script lang="ts">
-  import Header from "./Header.svelte";
+  import DivideY from "$lib/components/DivideY.svelte";
+  import Hello from "$lib/components/tiles/Hello.svelte";
+  import Gulpin from "$lib/components/tiles/Gulpin.svelte";
 </script>
 
-<h1 class="text-center text-3xl">
-  <Header />
-</h1>
+<div class="p-8 pt-24">
+  <Hello />
+
+  <DivideY />
+
+  <div class="flex flex-col gap-4 items-center">
+    <h2>
+      Webdev
+    </h2>
+
+    <Gulpin />
+  </div>
+</div>

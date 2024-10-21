@@ -1,6 +1,11 @@
-<script>
+<script lang="ts">
   import "../app.css";
-  import "@fontsource/lato";
+  import "@fontsource/inter/500.css";
+  import "@fontsource/roboto-slab";
+  import Header from "$lib/components/Header.svelte";
 </script>
 
-<slot />
+<div>
+  <Header />
+  <slot />
+</div>
