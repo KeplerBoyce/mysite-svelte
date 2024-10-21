@@ -11,7 +11,7 @@
     />
   </div>
 
-  <h1 slot="heading">
+  <h1 slot="heading" class="mb-4">
     Hi, I'm Kepler!
   </h1>
 

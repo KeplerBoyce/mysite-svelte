@@ -14,24 +14,24 @@
   </div>
 
   <h2 slot="heading" class="mb-1">
-    gulpin.games
+    kwordle.app v2
   </h2>
 
   <div slot="subheading" class="flex gap-2 text-base items-center italic mb-3">
     <h4>
-    June 2023 – ongoing
+    May 2024
     </h4>
     <Dot />
     <a
-      href="https://www.gulpin.games"
+      href="https://www.kwordle.app"
       class="underline text-sky-600 hover:text-sky-500 transition duration-200"
     >
-      gulpin.games
+      kwordle.app
     </a>
   </div>
 
   <p slot="text" class="mb-3">
-    A website for playing online 1v1 games with friends, including chess, connect-4, ultimate tic-tac-toe, and more games to come in the future.
+    Online Wordle game that supports lobbies of up to 10 players. Updated and modernized version of old kwordle.app hackathon project.
   </p>
 
   <div slot="after" class="flex gap-1 flex-wrap">
@@ -41,8 +41,6 @@
     <Tag text="TailwindCSS" />
     <Tag text="Rust" />
     <Tag text="Actix" />
-    <Tag text="PostgreSQL" />
-    <Tag text="Redis" />
     <Tag text="Docker" />
     <Tag text="SSE" />
   </div>

@@ -2,13 +2,12 @@
   <slot name="left" />
 
   <div class="pt-8">
-    <div class="mb-6">
-      <slot name="heading" />
-    </div>
-    <div class="max-w-prose mb-6">
+    <slot name="heading" />
+    <slot name="subheading" />
+    <div class="max-w-prose">
       <slot name="text" />
+      <slot name="after" />
     </div>
-    <slot name="after" />
   </div>
 
   <slot name="right" />
