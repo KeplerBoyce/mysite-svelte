@@ -7,7 +7,7 @@
     <enhanced:img
       src="$lib/images/kepler.jpg"
       alt="Picture of Kepler"
-      class="w-96 rounded-3xl"
+      class="img-lg"
     />
   </div>
 

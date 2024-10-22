@@ -6,11 +6,11 @@
 
 <ImageBlock>
   <div slot="left" class="min-w-fit">
-    <!-- <enhanced:img -->
-    <!--   src="$lib/images/kepler.jpg" -->
-    <!--   alt="Picture of Kepler" -->
-    <!--   class="w-96 rounded-3xl" -->
-    <!-- /> -->
+    <enhanced:img
+      src="$lib/images/placeholder.png"
+      alt="Picture of placeholder"
+      class="img-sm"
+    />
   </div>
 
   <h2 slot="heading">

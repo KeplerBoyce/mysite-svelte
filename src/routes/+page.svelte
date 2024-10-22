@@ -18,7 +18,7 @@
 
   <DivideY />
 
-  <div class="flex flex-col gap-12 items-center pb-16">
+  <div class="flex flex-col gap-12 items-center">
     <h1>
       Webdev Projects
     </h1>
