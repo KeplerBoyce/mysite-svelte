@@ -36,7 +36,7 @@
 
   <div class="flex flex-col gap-12 items-center pb-16">
     <h1>
-      Other Projects
+      Other Programming Projects
     </h1>
 
     <Gamedev />

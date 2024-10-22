@@ -1,0 +1,80 @@
+.default-tag {
+    background-color: #64748b;
+}
+
+.svelte-tag {
+    background-color: #ff3e00;
+}
+
+.ts-tag {
+    background-color: #2f74c0;
+}
+
+.tailwind-tag {
+    background-color: #38bdf8;
+}
+
+.nextjs-tag {
+    background-color: #000000;
+}
+
+.react-tag {
+    background-color: #58c4dc;
+}
+
+.rust-tag {
+    background-color: #a4310d;
+}
+
+.postgres-tag {
+    background-color: #31648c;
+}
+
+.redis-tag {
+    background-color: #d5362b;
+}
+
+.docker-tag {
+    background-color: #1c60e6;
+}
+
+.tauri-tag {
+    background-color: #23c2d4;
+}
+
+.express-tag {
+    background-color: #576671;
+}
+
+.js-tag {
+    background-color: #f7e025;
+    color: #080808;
+}
+
+.html-tag {
+    background-color: #e5532d;
+}
+
+.css-tag {
+    background-color: #2d53e5;
+}
+
+.unity-tag {
+    background-color: #080808;
+}
+
+.csharp-tag {
+    background-color: #83378d;
+}
+
+.godot-tag {
+    background-color: #4d90c1;
+}
+
+.blender-tag {
+    background-color: #eb7a08;
+}
+
+.java-tag {
+    background-color: #5785a3;
+}
