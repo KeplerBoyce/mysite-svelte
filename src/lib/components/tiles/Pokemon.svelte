@@ -13,28 +13,25 @@
     <!-- /> -->
   </div>
 
-  <h2 slot="heading" class="mb-1">
+  <h2 slot="heading">
     Pokémon Type Trainer
   </h2>
 
-  <div slot="subheading" class="flex gap-2 text-base items-center italic mb-3">
+  <div slot="subheading" class="dot-list subheading">
     <h4>
       June 2023
     </h4>
     <Dot />
-    <a
-      href="https://keplerboyce.github.io/pokemon-type-trainer/"
-      class="underline text-sky-600 hover:text-sky-500 transition duration-200"
-    >
+    <a href="https://keplerboyce.github.io/pokemon-type-trainer/">
       keplerboyce.github.io/pokemon-type-trainer
     </a>
   </div>
 
-  <p slot="text" class="mb-3">
+  <p slot="text">
     A very small and silly website built to help myself remember Pokémon type interactions.
   </p>
 
-  <div slot="after" class="flex gap-1 flex-wrap">
+  <div slot="after" class="tags">
     <Tag text="Next.js" />
     <Tag text="React" />
     <Tag text="Typescript" />

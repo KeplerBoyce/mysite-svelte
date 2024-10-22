@@ -11,11 +11,11 @@
     />
   </div>
 
-  <h1 slot="heading" class="mb-4">
+  <h1 slot="heading">
     Hi, I'm Kepler!
   </h1>
 
-  <div slot="text" class="flex flex-col gap-4">
+  <div slot="text" class="paragraphs">
     <p>
       I'm a 2nd-year computer science student at Georgia Tech, studying the Systems & Architecture and Intelligence concentrations. I am also minoring in robotics, as I find the challenges of motion planning and autonomous control very interesting.
     </p>

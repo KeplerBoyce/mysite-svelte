@@ -1,7 +1,6 @@
 <script lang="ts">
   import ImageBlock from "$lib/components/ImageBlock.svelte";
   import Tag from "../Tag.svelte";
-  import Dot from "../Dot.svelte";
 </script>
 
 <ImageBlock>
@@ -14,21 +13,15 @@
   </div>
 
   <h2 slot="heading">
-    gulpin.games
+    Sightreading Trainer
   </h2>
 
-  <div slot="subheading" class="dot-list subheading">
-    <h4>
-      June 2023 – ongoing
-    </h4>
-    <Dot />
-    <a href="https://www.gulpin.games">
-      gulpin.games
-    </a>
-  </div>
+  <h4 slot="subheading" class="subheading">
+    January 2023
+  </h4>
 
   <p slot="text">
-    A website for playing online 1v1 games with friends, including chess, connect-4, ultimate tic-tac-toe, and more games to come in the future.
+    A website for training sheet music sightreading. Displays notes on a staff with either treble or bass clef, and you play the shown notes either on the on-screen piano or on a phsyical MIDI device that you connect. Built with a team for the GunnHacks 9.0 hackathon.
   </p>
 
   <div slot="after" class="tags">
@@ -36,11 +29,5 @@
     <Tag text="React" />
     <Tag text="Typescript" />
     <Tag text="TailwindCSS" />
-    <Tag text="Rust" />
-    <Tag text="Actix" />
-    <Tag text="PostgreSQL" />
-    <Tag text="Redis" />
-    <Tag text="Docker" />
-    <Tag text="SSE" />
   </div>
 </ImageBlock>

@@ -13,22 +13,18 @@
   </div>
 
   <h2 slot="heading">
-    kwordle.app (old)
+    CubeScramble
   </h2>
 
   <h4 slot="subheading" class="subheading">
-    February 2022
+    August 2023
   </h4>
 
   <p slot="text">
-    A real-time 1v1 Wordle game made for the GunnHacks 8.0 hackathon. This was my first experience with web development.
+    A library that generates random-state scrambles for the 3x3 Rubik's Cube. I originally made this to generate the scrambles for my Minitimer speedcubing timer app, and I plan to come back to this project and add support for other official World Cube Association puzzles in the future as I continue working on Minitimer.
   </p>
 
   <div slot="after" class="tags">
-    <Tag text="Express" />
-    <Tag text="WebSocket" />
-    <Tag text="Javascript" />
-    <Tag text="HTML" />
-    <Tag text="CSS" />
+    <Tag text="Rust" />
   </div>
 </ImageBlock>

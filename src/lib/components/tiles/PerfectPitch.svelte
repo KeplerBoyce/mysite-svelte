@@ -13,22 +13,19 @@
   </div>
 
   <h2 slot="heading">
-    kwordle.app (old)
+    Pitch Memory Trainer
   </h2>
 
   <h4 slot="subheading" class="subheading">
-    February 2022
+    August 2023
   </h4>
 
   <p slot="text">
-    A real-time 1v1 Wordle game made for the GunnHacks 8.0 hackathon. This was my first experience with web development.
+    A simple desktop app that generates pure sine waves for practicing pitch memory. I built this as a way to practice JavaFX prior to the CS 1331 advanced standing exam at GT, which included JavaFX content.
   </p>
 
   <div slot="after" class="tags">
-    <Tag text="Express" />
-    <Tag text="WebSocket" />
-    <Tag text="Javascript" />
-    <Tag text="HTML" />
-    <Tag text="CSS" />
+    <Tag text="Java" />
+    <Tag text="JavaFX" />
   </div>
 </ImageBlock>

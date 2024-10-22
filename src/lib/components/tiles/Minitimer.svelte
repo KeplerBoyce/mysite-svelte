@@ -12,19 +12,19 @@
     <!-- /> -->
   </div>
 
-  <h2 slot="heading" class="mb-1">
+  <h2 slot="heading">
     Minitimer
   </h2>
 
-  <h4 slot="subheading" class="mb-3 text-base italic">
+  <h4 slot="subheading" class="subheading">
     August 2023 – ongoing
   </h4>
 
-  <p slot="text" class="mb-3">
+  <p slot="text">
     A modern, simple timer website and desktop app for speedcubers. Includes standard features such as timing with keyboard, tracking solve times in sessions, and storing personal records and past solves' scrambles.
   </p>
 
-  <div slot="after" class="flex gap-1 flex-wrap">
+  <div slot="after" class="tags">
     <Tag text="Rust" />
     <Tag text="Tauri" />
     <Tag text="Next.js" />

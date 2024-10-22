@@ -13,22 +13,23 @@
   </div>
 
   <h2 slot="heading">
-    kwordle.app (old)
+    Godot Projects
   </h2>
 
   <h4 slot="subheading" class="subheading">
-    February 2022
+    December 2023 – ongoing
   </h4>
 
   <p slot="text">
-    A real-time 1v1 Wordle game made for the GunnHacks 8.0 hackathon. This was my first experience with web development.
+    A few side projects I have worked on using both the Unity and Godot game engines, including a couple of small 3D FPS game I built as test projects and a 2.5D roguelite deck-builder game that I am currently working on and hope to release in the future.
   </p>
 
   <div slot="after" class="tags">
-    <Tag text="Express" />
-    <Tag text="WebSocket" />
-    <Tag text="Javascript" />
-    <Tag text="HTML" />
-    <Tag text="CSS" />
+    <Tag text="Unity" />
+    <Tag text="C#" />
+    <Tag text="Godot" />
+    <Tag text="GDScript" />
+    <Tag text="Shaders" />
+    <Tag text="Blender" />
   </div>
 </ImageBlock>

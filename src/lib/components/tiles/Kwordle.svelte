@@ -13,28 +13,25 @@
     <!-- /> -->
   </div>
 
-  <h2 slot="heading" class="mb-1">
+  <h2 slot="heading">
     kwordle.app v2
   </h2>
 
-  <div slot="subheading" class="flex gap-2 text-base items-center italic mb-3">
+  <div slot="subheading" class="dot-list subheading">
     <h4>
-    May 2024
+      May 2024
     </h4>
     <Dot />
-    <a
-      href="https://www.kwordle.app"
-      class="underline text-sky-600 hover:text-sky-500 transition duration-200"
-    >
+    <a href="https://www.kwordle.app">
       kwordle.app
     </a>
   </div>
 
-  <p slot="text" class="mb-3">
-    Online Wordle game that supports lobbies of up to 10 players. Updated and modernized version of old kwordle.app hackathon project.
+  <p slot="text">
+    Online Wordle game that supports lobbies of up to 10 players. Updated and modernized version of old kwordle.app hackathon project, including many additional features and settings to make it fun for everyone.
   </p>
 
-  <div slot="after" class="flex gap-1 flex-wrap">
+  <div slot="after" class="tags">
     <Tag text="Next.js" />
     <Tag text="React" />
     <Tag text="Typescript" />

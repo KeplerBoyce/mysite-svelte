@@ -14,33 +14,27 @@
   </div>
 
   <h2 slot="heading">
-    gulpin.games
+    keplerboyce.com
   </h2>
 
   <div slot="subheading" class="dot-list subheading">
     <h4>
-      June 2023 – ongoing
+    October 2024 – ongoing
     </h4>
     <Dot />
-    <a href="https://www.gulpin.games">
-      gulpin.games
+    <a href="https://www.keplerboyce.com">
+      keplerboyce.com
     </a>
   </div>
 
   <p slot="text">
-    A website for playing online 1v1 games with friends, including chess, connect-4, ultimate tic-tac-toe, and more games to come in the future.
+    This website, where I showcase all of my projects! I originally made this with Next.js, but I wanted to try Svelte to learn something new. So far, I'm really enjoying the templating system (slots are really nice) and simpler-to-use props and state compared to React's props and hooks.
   </p>
 
   <div slot="after" class="tags">
-    <Tag text="Next.js" />
-    <Tag text="React" />
+    <Tag text="SvelteKit" />
+    <Tag text="Svelte" />
     <Tag text="Typescript" />
     <Tag text="TailwindCSS" />
-    <Tag text="Rust" />
-    <Tag text="Actix" />
-    <Tag text="PostgreSQL" />
-    <Tag text="Redis" />
-    <Tag text="Docker" />
-    <Tag text="SSE" />
   </div>
 </ImageBlock>
