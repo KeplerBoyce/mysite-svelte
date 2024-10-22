@@ -3,70 +3,150 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: bold;
-  color: #172c55;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #172c55;
 }
 
 h1 {
-  font-size: 2.25rem;
-  line-height: 2.25rem;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
 }
 
 h2 {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
 }
 
 h3 {
-  font-size: 1.5rem;
-  line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 p {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 500;
-  color: #577b99;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: #577b99;
 }
 
 a {
-  text-decoration: underline;
-  color: #0284c7;
-  transition-property: color;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+    text-decoration: underline;
+    color: #0284c7;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
 }
 
 a:hover {
-  color: #0ea5e9;
+    color: #0ea5e9;
 }
 
 .paragraphs {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem;
-  margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
 }
 
 .subheading {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-style: italic;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-style: italic;
 }
 
 .dot-list {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.default-tag {
+    background-color: #64748b;
+}
+
+.svelte-tag {
+    background-color: #ff3e00;
+}
+
+.ts-tag {
+    background-color: #2f74c0;
+}
+
+.tailwind-tag {
+    background-color: #38bdf8;
+}
+
+.nextjs-tag {
+    background-color: #000000;
+}
+
+.react-tag {
+    background-color: #58c4dc;
+}
+
+.rust-tag {
+    background-color: #a4310d;
+}
+
+.postgres-tag {
+    background-color: #31648c;
+}
+
+.redis-tag {
+    background-color: #d5362b;
+}
+
+.docker-tag {
+    background-color: #1c60e6;
+}
+
+.tauri-tag {
+    background-color: #23c2d4;
+}
+
+.express-tag {
+    background-color: #576671;
+}
+
+.js-tag {
+    background-color: #f7e025;
+    color: #080808;
+}
+
+.html-tag {
+    background-color: #e5532d;
+}
+
+.css-tag {
+    background-color: #2d53e5;
+}
+
+.unity-tag {
+    background-color: #080808;
+}
+
+.csharp-tag {
+    background-color: #83378d;
+}
+
+.godot-tag {
+    background-color: #4d90c1;
+}
+
+.blender-tag {
+    background-color: #eb7a08;
+}
+
+.java-tag {
+    background-color: #5785a3;
 }
