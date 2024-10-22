@@ -18,29 +18,20 @@
 
   <DivideY />
 
-  <div class="flex flex-col gap-12 items-center">
+  <div class="flex flex-col gap-12 items-center pb-16">
     <h1>
-      Webdev Projects
+      Projects
     </h1>
 
     <ThisSite />
-    <Gulpin />
     <Kwordle />
+    <Gamedev />
+    <Gulpin />
     <Minitimer />
+    <CubeScramble />
+    <PerfectPitch />
     <Pokemon />
     <ChordTrainer />
     <KwordleOld />
-  </div>
-
-  <DivideY />
-
-  <div class="flex flex-col gap-12 items-center pb-16">
-    <h1>
-      Other Programming Projects
-    </h1>
-
-    <Gamedev />
-    <CubeScramble />
-    <PerfectPitch />
   </div>
 </div>
