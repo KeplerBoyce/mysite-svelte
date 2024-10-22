@@ -10,7 +10,7 @@
   import Header from "$lib/components/Header.svelte";
 </script>
 
-<div>
-  <Header />
+<Header />
+<div class="p-8 pt-24 pb-16">
   <slot />
 </div>

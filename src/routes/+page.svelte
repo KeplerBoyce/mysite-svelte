@@ -13,25 +13,21 @@
   import ThisSite from "$lib/components/tiles/ThisSite.svelte";
 </script>
 
-<div class="p-8 pt-24">
-  <Hello />
+<Hello />
+<DivideY />
+<div class="flex flex-col gap-12 items-center">
+  <h1>
+    Projects
+  </h1>
 
-  <DivideY />
-
-  <div class="flex flex-col gap-12 items-center pb-16">
-    <h1>
-      Projects
-    </h1>
-
-    <ThisSite />
-    <Kwordle />
-    <Gamedev />
-    <Gulpin />
-    <Minitimer />
-    <CubeScramble />
-    <PerfectPitch />
-    <Pokemon />
-    <ChordTrainer />
-    <KwordleOld />
-  </div>
+  <ThisSite />
+  <Kwordle />
+  <Gamedev />
+  <Gulpin />
+  <Minitimer />
+  <CubeScramble />
+  <PerfectPitch />
+  <Pokemon />
+  <ChordTrainer />
+  <KwordleOld />
 </div>
