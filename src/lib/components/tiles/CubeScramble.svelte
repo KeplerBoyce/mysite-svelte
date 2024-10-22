@@ -20,7 +20,7 @@
     August 2023
   </h4>
 
-  <p slot="text">
+  <p slot="text" class="w-full">
     A library that generates random-state scrambles for the 3x3 Rubik's Cube. I originally made this to generate the scrambles for my Minitimer speedcubing timer app, and I plan to come back to this project and add support for other official World Cube Association puzzles in the future as I continue working on Minitimer.
   </p>
 

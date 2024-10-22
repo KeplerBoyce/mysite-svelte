@@ -20,7 +20,7 @@
     August 2023
   </h4>
 
-  <p slot="text">
+  <p slot="text" class="w-full">
     A simple desktop app that generates pure sine waves for practicing pitch memory. I built this as a way to practice JavaFX prior to the CS 1331 advanced standing exam at GT, which included JavaFX content.
   </p>
 

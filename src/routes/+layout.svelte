@@ -11,6 +11,6 @@
 </script>
 
 <Header />
-<div class="p-8 pt-24 pb-16">
+<div class="p-8 pt-24 pb-16 flex flex-col items-center">
   <slot />
 </div>

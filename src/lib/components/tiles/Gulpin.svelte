@@ -27,7 +27,7 @@
     </a>
   </div>
 
-  <p slot="text">
+  <p slot="text" class="w-full">
     A website for playing online 1v1 games with friends, including chess, connect-4, ultimate tic-tac-toe, and more games to come in the future.
   </p>
 

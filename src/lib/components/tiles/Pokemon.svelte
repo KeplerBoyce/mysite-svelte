@@ -27,7 +27,7 @@
     </a>
   </div>
 
-  <p slot="text">
+  <p slot="text" class="w-full">
     A very small and silly website built to help myself remember Pokémon type interactions.
   </p>
 

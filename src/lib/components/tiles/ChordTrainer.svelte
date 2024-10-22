@@ -20,7 +20,7 @@
     January 2023
   </h4>
 
-  <p slot="text">
+  <p slot="text" class="w-full">
     A website for training sheet music sightreading, built with a team for the GunnHacks 9.0 hackathon. Displays notes on a staff with either treble or bass clef, and you play the shown notes either using the on-screen piano or on a phsyical MIDI device that you connect.
   </p>
 

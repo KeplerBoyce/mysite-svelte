@@ -20,7 +20,7 @@
     August 2023 – ongoing
   </h4>
 
-  <p slot="text">
+  <p slot="text" class="w-full">
     A modern, simple timer website and desktop app for speedcubers. Includes standard features such as timing with keyboard, tracking solve times in sessions, and storing personal records and past solves' scrambles.
   </p>
 

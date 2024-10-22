@@ -27,7 +27,7 @@
     </a>
   </div>
 
-  <p slot="text">
+  <p slot="text" class="w-full">
     Online Wordle game that supports lobbies of up to 10 players. Updated and modernized version of old kwordle.app hackathon project, including many additional features and settings to make it fun for everyone.
   </p>
 

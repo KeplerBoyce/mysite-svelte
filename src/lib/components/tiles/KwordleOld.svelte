@@ -20,7 +20,7 @@
     February 2022
   </h4>
 
-  <p slot="text">
+  <p slot="text" class="w-full">
     A real-time 1v1 Wordle game made for the GunnHacks 8.0 hackathon. This was my first experience with web development.
   </p>
 
