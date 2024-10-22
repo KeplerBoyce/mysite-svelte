@@ -13,9 +13,11 @@
     />
   </div>
 
-  <h2 slot="heading">
-    kwordle.app v2
-  </h2>
+  <a slot="heading" href="/kwordle" class="a-heading">
+    <h2 class="heading-hover">
+      kwordle.app v2
+    </h2>
+  </a>
 
   <div slot="subheading" class="dot-list subheading">
     <h4>

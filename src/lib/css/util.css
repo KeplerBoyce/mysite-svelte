@@ -4,6 +4,23 @@
     gap: 0.25rem;
 }
 
+.a-heading {
+    text-decoration: none;
+    width: min-content;
+    white-space: nowrap;
+}
+
+.heading-hover {
+    text-decoration: underline;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.heading-hover:hover {
+    color: #155e75;
+}
+
 .subheading {
     font-size: 1rem;
     line-height: 1.5rem;
