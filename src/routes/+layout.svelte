@@ -1,6 +1,7 @@
 <script lang="ts">
   import "../app.css";
   import "$lib/css/base.css";
+  import "$lib/css/page.css";
   import "$lib/css/tags.css";
   import "$lib/css/util.css";
 

@@ -1,0 +1,28 @@
+h1.page {
+    margin-bottom: 2rem;
+}
+
+.page h2, .page h3, .page p {
+    width: 100%;
+}
+
+.page h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.page p {
+    margin-bottom: 1rem;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 65ch;
+}

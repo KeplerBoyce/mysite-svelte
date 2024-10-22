@@ -13,7 +13,7 @@
   </div>
 
   <h2 slot="heading">
-    Godot Projects
+    Gamedev Projects
   </h2>
 
   <h4 slot="subheading" class="subheading">
