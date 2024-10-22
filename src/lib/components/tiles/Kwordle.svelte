@@ -1,6 +1,6 @@
 <script lang="ts">
   import ImageBlock from "$lib/components/ImageBlock.svelte";
-  import Tag from "../Tag.svelte";
+  import TagList from "../TagList.svelte";
   import Dot from "../Dot.svelte";
 </script>
 
@@ -33,14 +33,5 @@
     Online Wordle game that supports lobbies of up to 10 players. Updated and modernized version of old kwordle.app hackathon project, including many additional features and settings to make it fun for everyone.
   </p>
 
-  <div slot="after" class="tags">
-    <Tag text="Next.js" />
-    <Tag text="React" />
-    <Tag text="Typescript" />
-    <Tag text="TailwindCSS" />
-    <Tag text="Rust" />
-    <Tag text="Actix" />
-    <Tag text="Docker" />
-    <Tag text="SSE" />
-  </div>
+  <TagList slot="after" entry="kwordle" />
 </ImageBlock>

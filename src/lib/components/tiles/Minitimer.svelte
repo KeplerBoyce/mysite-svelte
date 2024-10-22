@@ -1,6 +1,6 @@
 <script lang="ts">
   import ImageBlock from "$lib/components/ImageBlock.svelte";
-  import Tag from "../Tag.svelte";
+  import TagList from "../TagList.svelte";
 </script>
 
 <ImageBlock>
@@ -24,12 +24,5 @@
     A modern, simple timer website and desktop app for speedcubers. Includes standard features such as timing with keyboard, tracking solve times in sessions, and storing personal records and past solves' scrambles.
   </p>
 
-  <div slot="after" class="tags">
-    <Tag text="Rust" />
-    <Tag text="Tauri" />
-    <Tag text="Next.js" />
-    <Tag text="React" />
-    <Tag text="Typescript" />
-    <Tag text="TailwindCSS" />
-  </div>
+  <TagList slot="after" entry="minitimer" />
 </ImageBlock>

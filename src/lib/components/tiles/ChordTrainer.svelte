@@ -1,6 +1,6 @@
 <script lang="ts">
   import ImageBlock from "$lib/components/ImageBlock.svelte";
-  import Tag from "../Tag.svelte";
+  import TagList from "../TagList.svelte";
 </script>
 
 <ImageBlock>
@@ -24,10 +24,5 @@
     A website for training sheet music sightreading, built with a team for the GunnHacks 9.0 hackathon. Displays notes on a staff with either treble or bass clef, and you play the shown notes either using the on-screen piano or on a phsyical MIDI device that you connect.
   </p>
 
-  <div slot="after" class="tags">
-    <Tag text="Next.js" />
-    <Tag text="React" />
-    <Tag text="Typescript" />
-    <Tag text="TailwindCSS" />
-  </div>
+  <TagList slot="after" entry="chordTrainer" />
 </ImageBlock>

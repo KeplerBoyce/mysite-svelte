@@ -1,6 +1,6 @@
 <script lang="ts">
   import ImageBlock from "$lib/components/ImageBlock.svelte";
-  import Tag from "../Tag.svelte";
+  import TagList from "../TagList.svelte";
   import Dot from "../Dot.svelte";
 </script>
 
@@ -31,10 +31,5 @@
     A very small and silly website built to help myself remember Pokémon type interactions.
   </p>
 
-  <div slot="after" class="tags">
-    <Tag text="Next.js" />
-    <Tag text="React" />
-    <Tag text="Typescript" />
-    <Tag text="TailwindCSS" />
-  </div>
+  <TagList slot="after" entry="pokemon" />
 </ImageBlock>

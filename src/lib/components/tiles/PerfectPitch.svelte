@@ -1,6 +1,6 @@
 <script lang="ts">
   import ImageBlock from "$lib/components/ImageBlock.svelte";
-  import Tag from "../Tag.svelte";
+  import TagList from "../TagList.svelte";
 </script>
 
 <ImageBlock>
@@ -24,8 +24,5 @@
     A simple desktop app that generates pure sine waves for practicing pitch memory. I built this as a way to practice JavaFX prior to the CS 1331 advanced standing exam at GT, which included JavaFX content.
   </p>
 
-  <div slot="after" class="tags">
-    <Tag text="Java" />
-    <Tag text="JavaFX" />
-  </div>
+  <TagList slot="after" entry="perfectPitch" />
 </ImageBlock>

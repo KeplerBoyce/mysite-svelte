@@ -1,6 +1,6 @@
 <script lang="ts">
   import ImageBlock from "$lib/components/ImageBlock.svelte";
-  import Tag from "../Tag.svelte";
+  import TagList from "../TagList.svelte";
 </script>
 
 <ImageBlock>
@@ -24,11 +24,5 @@
     A real-time 1v1 Wordle game made for the GunnHacks 8.0 hackathon. This was my first experience with web development.
   </p>
 
-  <div slot="after" class="tags">
-    <Tag text="Express" />
-    <Tag text="WebSocket" />
-    <Tag text="Javascript" />
-    <Tag text="HTML" />
-    <Tag text="CSS" />
-  </div>
+  <TagList slot="after" entry="kwordleOld" />
 </ImageBlock>

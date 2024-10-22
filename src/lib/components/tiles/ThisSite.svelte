@@ -1,6 +1,6 @@
 <script lang="ts">
   import ImageBlock from "$lib/components/ImageBlock.svelte";
-  import Tag from "../Tag.svelte";
+  import TagList from "../TagList.svelte";
   import Dot from "../Dot.svelte";
 </script>
 
@@ -31,11 +31,5 @@
     This website, where I showcase all of my projects! I originally made this with Next.js, but I wanted to try Svelte to learn something new. So far, I'm really enjoying the templating system and simpler-to-use props and state compared to React's props and hooks.
   </p>
 
-  <div slot="after" class="tags">
-    <Tag text="SvelteKit" />
-    <Tag text="Svelte" />
-    <Tag text="Typescript" />
-    <Tag text="TailwindCSS" />
-    <Tag text="CSS" />
-  </div>
+  <TagList slot="after" entry="thisSite" />
 </ImageBlock>

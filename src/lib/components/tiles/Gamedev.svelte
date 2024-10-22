@@ -1,6 +1,6 @@
 <script lang="ts">
   import ImageBlock from "$lib/components/ImageBlock.svelte";
-  import Tag from "../Tag.svelte";
+  import TagList from "../TagList.svelte";
 </script>
 
 <ImageBlock>
@@ -24,12 +24,5 @@
     A few side projects I have worked on using both the Unity and Godot game engines, including a couple of small 3D FPS game I built as test projects and a 2.5D roguelite deck-builder game that I am currently working on and hope to release in the future.
   </p>
 
-  <div slot="after" class="tags">
-    <Tag text="Unity" />
-    <Tag text="C#" />
-    <Tag text="Godot" />
-    <Tag text="GDScript" />
-    <Tag text="Shaders" />
-    <Tag text="Blender" />
-  </div>
+  <TagList slot="after" entry="gamedev" />
 </ImageBlock>
