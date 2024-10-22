@@ -7,14 +7,14 @@ export const TAGS = {
     "CSS",
   ],
   kwordle: [
+    "Rust",
+    "Actix",
+    "SSE",
     "Next.js",
     "React",
     "Typescript",
     "TailwindCSS",
-    "Rust",
-    "Actix",
     "Docker",
-    "SSE",
   ],
   gamedev: [
     "Unity",

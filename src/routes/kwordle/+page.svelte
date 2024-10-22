@@ -1,6 +1,14 @@
+<script lang="ts">
+  import TagList from "$lib/components/TagList.svelte";
+</script>
+
 <h1 class="page">
   kwordle.app v2
 </h1>
+
+<div class="mb-8">
+  <TagList entry="kwordle" />
+</div>
 
 <div class="page page-body">
   <h2>
