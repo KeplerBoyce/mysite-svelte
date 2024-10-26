@@ -14,7 +14,7 @@
   </div>
 
   <a slot="heading" href="/kwordle" class="a-heading">
-    <h2 class="heading-hover">
+    <h2 class="heading-hover underline">
       kwordle.app v2
     </h2>
   </a>

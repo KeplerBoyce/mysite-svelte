@@ -14,7 +14,7 @@
   </div>
 
   <a slot="heading" href="/about" class="a-heading">
-    <h2 class="heading-hover">
+    <h2 class="heading-hover underline">
       keplerboyce.com
     </h2>
   </a>
