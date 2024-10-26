@@ -13,7 +13,7 @@
   </div>
 
   <a slot="heading" href="/gamedev" class="a-heading">
-    <h2 class="heading-hover">
+    <h2 class="heading-hover underline">
       Gamedev Projects
     </h2>
   </a>
