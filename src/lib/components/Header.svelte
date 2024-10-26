@@ -1,5 +1,6 @@
 <script lang="ts">
   import { dark } from "$lib/stores";
+  import Switch from "./Switch.svelte";
 </script>
 
 <div class="w-full h-16 flex gap-4 px-8 justify-center items-center border-b-2 border-gray-300 border-util">
@@ -9,9 +10,9 @@
     </h1>
   </a>
   <div class="grow" />
-  <button on:click={() => {$dark = !$dark}}>
-    <h4 class="">
+  <Switch bind:toggled={$dark}>
+    <h4 slot="label" class="">
       Dark mode
     </h4>
-  </button>
+  </Switch>
 </div>
