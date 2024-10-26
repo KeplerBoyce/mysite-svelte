@@ -13,7 +13,9 @@
   import ThisSite from "$lib/components/tiles/ThisSite.svelte";
 </script>
 
-<Hello />
+<div class="flex justify-center">
+  <Hello />
+</div>
 <DivideY />
 <div class="flex flex-col gap-12 items-center">
   <h1>

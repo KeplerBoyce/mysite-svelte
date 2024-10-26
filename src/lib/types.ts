@@ -1,4 +1,6 @@
-export const TAGS = {
+export const TAGS: {
+    [key: string]: string[],
+} = {
   thisSite: [
     "SvelteKit",
     "Svelte",

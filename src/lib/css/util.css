@@ -4,6 +4,14 @@
     gap: 0.25rem;
 }
 
+.tag-text {
+    color: inherit;
+}
+
+.dark .tag-text {
+    color: inherit;
+}
+
 .a-heading {
     text-decoration: none;
     width: min-content;
@@ -19,6 +27,20 @@
 
 .heading-hover:hover {
     color: #155e75;
+}
+
+.dark .heading-hover:hover {
+    color: #b1ccf0;
+}
+
+.border-util {
+    transition-property: border-color;
+    transition-duration: 300ms;
+    border-color: #b8c1cc;
+}
+
+.dark .border-util {
+    border-color: #64748b;
 }
 
 .subheading {

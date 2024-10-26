@@ -2,10 +2,18 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+h1, h2, h3, h4, p, a {
+    transition-property: color;
+    transition-duration: 300ms;
+}
+
+h1, h2, h3, h4 {
+    color: #172c55;
+    font-weight: bold;
+}
+
 h1, h2, h3 {
     font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-    color: #172c55;
 }
 
 h1 {
@@ -21,6 +29,11 @@ h2 {
 h3 {
     font-size: 1.5rem;
     line-height: 2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 p {
@@ -40,4 +53,24 @@ a {
 
 a:hover {
     color: #0ea5e9;
+}
+
+.dark {
+    background-color: #1e293b;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4 {
+    color: #e2e8f0;
+}
+
+.dark p {
+    color: #94a3b8;
+}
+
+.dark a {
+    color: #79adc7;
+}
+
+.dark a:hover {
+    color: #52a0c7;
 }

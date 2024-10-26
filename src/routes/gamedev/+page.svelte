@@ -1,6 +1,14 @@
+<script lang="ts">
+  import TagList from "$lib/components/TagList.svelte";
+</script>
+
 <h1 class="page">
-  Gamedev projects
+  Gamedev Projects
 </h1>
+
+<div class="mb-8">
+  <TagList entry="gamedev" />
+</div>
 
 <div class="page page-body">
   <h2>
