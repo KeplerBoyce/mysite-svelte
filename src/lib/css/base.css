@@ -3,7 +3,7 @@ body {
     height: 100vh;
 }
 
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, p, li, a {
     transition-property: color;
     transition-duration: 300ms;
 }
@@ -37,7 +37,7 @@ h4 {
     line-height: 1.5rem;
 }
 
-p {
+p, li {
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: 500;
@@ -64,7 +64,7 @@ a:hover {
     color: #e2e8f0;
 }
 
-.dark p {
+.dark p, .dark li {
     color: #94a3b8;
 }
 

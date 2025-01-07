@@ -13,9 +13,11 @@
     />
   </div>
 
-  <h2 slot="heading">
-    gulpin.games
-  </h2>
+  <a slot="heading" href="/gulpin" class="a-heading">
+    <h2 class="heading-hover underline">
+      gulpin.games
+    </h2>
+  </a>
 
   <div slot="subheading" class="dot-list subheading">
     <h4>
