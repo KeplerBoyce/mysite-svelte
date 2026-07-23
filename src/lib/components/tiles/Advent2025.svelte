@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    OCaml solutions to all 12 days of Advent of Code 2025, in mostly pure functional style. I wanted to try using a functional language and figured this would be the perfect opportunity. OCaml was appealing as many of my favorite Rust features were borrowed from OCaml (Option enum, pattern matching, block expressions, etc.).
+    OCaml solutions to the first 12 days of Advent of Code 2025, written mostly in pure functional style. I wanted to learn a functional language and figured this would be the perfect opportunity. OCaml was appealing as many of my favorite Rust features were borrowed from OCaml (Option enum, pattern matching, block expressions, etc.).
   </p>
 
   <TagList slot="after" entry="advent2025" />

@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    An online Wordle game that supports lobbies of up to 10 players. I like Wordle and wanted to play with friends, so I built this. Solving in fewer guesses gives drastically more points to discourage memorized opening sequences.
+    An online Wordle game that supports lobbies of up to 10 players. I enjoy Wordle and wanted to play with friends, so I built this. Solving in fewer guesses gives drastically more points to discourage memorized opening sequences.
   </p>
 
   <TagList slot="after" entry="kwordle" />

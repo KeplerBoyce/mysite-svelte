@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A toy compiler which converts a simple frontend language into JavaScript in similar style to Svelte. Built as a way to play around with OCaml more after Advent of Code, in particular on a problem OCaml is well suited for with its ADTs, pattern matching, and static typing.
+    A toy compiler which converts a simple reactive frontend language into JavaScript in a style similar to Svelte. Built as a way to play around with OCaml more after Advent of Code, in particular on a problem OCaml is well suited for with its ADTs, pattern matching, and static typing.
   </p>
 
   <TagList slot="after" entry="toyCompiler" />

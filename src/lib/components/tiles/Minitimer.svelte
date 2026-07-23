@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A modern, simple timer website and desktop app for speedcubers. Includes standard features such as timing with keyboard, tracking solve times in sessions, and storing personal records and past solves' scrambles.
+    A modern, simple timer website and desktop app for speedcubers. Includes standard features such as keyboard timing, tracking solve times in sessions, saving personal records, and logging past scrambles.
   </p>
 
   <TagList slot="after" entry="minitimer" />

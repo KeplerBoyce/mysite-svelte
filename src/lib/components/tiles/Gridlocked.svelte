@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A website for solving crossword puzzles together in real time. I made this to solve the lack of multiplayer support in NYT's games app. Uses a custom .puz file parser supporting circled tiles and rebuses.
+    A website for solving crossword puzzles together in real time. I made this to solve the lack of multiplayer support in the NYT Games app. Uses a custom .puz file parser supporting circled tiles and rebuses.
   </p>
 
   <TagList slot="after" entry="gridlocked" />

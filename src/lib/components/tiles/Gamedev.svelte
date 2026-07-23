@@ -21,7 +21,7 @@
   </h4>
 
   <p slot="text" class="w-full">
-    A few side projects I have worked on using both the Unity and Godot game engines, including a couple of small 3D FPS game I built as test projects and a 2.5D roguelite deck-builder game that I am currently working on and hope to release in the future.
+    A few side projects I have worked on using both the Unity and Godot game engines, including a couple of small 3D FPS games I built as test projects and a 2.5D roguelite deck-builder game that I am currently working on and hope to release in the future.
   </p>
 
   <TagList slot="after" entry="gamedev" />

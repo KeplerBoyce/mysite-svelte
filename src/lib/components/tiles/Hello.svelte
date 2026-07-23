@@ -17,10 +17,10 @@
 
   <svelte:fragment slot="text">
     <p class="w-full">
-      I'm a 4th-year computer science student at Georgia Tech, studying the Systems & Architecture and Intelligence concentrations. I am also minoring in robotics to gain the opportunity for some ECE courses.
+      I'm a 4th-year computer science student at Georgia Tech, studying the Systems & Architecture and Intelligence concentrations. I am also minoring in robotics, which allows me to take several exciting ECE courses.
     </p>
     <p class="w-full">
-      This website showcases some of the projects that I have made in my free time. I love learning new programming languages and technologies, so many of these projects are ways for me to solve problems while learning cool things at the same time.
+      This website showcases some of the projects I have made in my free time. I love learning new programming languages and technologies, so many of these projects were built to solve real problems while exploring new concepts.
     </p>
   </svelte:fragment>
 </ImageBlock>
