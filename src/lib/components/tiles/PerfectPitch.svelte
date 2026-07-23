@@ -16,7 +16,7 @@
   </div>
 
   <h2 slot="heading">
-    Pitch Memory Trainer
+    Perfect Pitch Trainer
   </h2>
 
   <div slot="subheading" class="dot-list subheading">

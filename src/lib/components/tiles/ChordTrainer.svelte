@@ -16,7 +16,7 @@
   </div>
 
   <h2 slot="heading">
-    Sightreading Trainer
+    Sight-Reading Trainer
   </h2>
 
   <div slot="subheading" class="dot-list subheading">
@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A website for training sheet music sightreading, built with a team for the GunnHacks 9.0 hackathon. Displays notes on a staff with either treble or bass clef, and you play the shown notes either using the on-screen piano or on a phsyical MIDI device that you connect.
+    A website to practice sight-reading sheet music, built with a team for the GunnHacks 9.0 hackathon. Displays notes on a staff with either treble or bass clef, and you play the shown notes either using the on-screen piano or on a phsyical MIDI device that you connect.
   </p>
 
   <TagList slot="after" entry="chordTrainer" />

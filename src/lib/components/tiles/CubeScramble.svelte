@@ -16,7 +16,7 @@
   </div>
 
   <h2 slot="heading">
-    CubeScramble
+    Random-State Cube Scrambler
   </h2>
 
   <div slot="subheading" class="dot-list subheading">

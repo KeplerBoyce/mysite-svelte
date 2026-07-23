@@ -16,7 +16,7 @@
   </div>
 
   <h2 slot="heading">
-    gulpin.games
+    1v1 Turn-Based Games Platform
   </h2>
 
   <div slot="subheading" class="dot-list subheading">

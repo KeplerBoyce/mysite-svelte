@@ -16,7 +16,7 @@
   </div>
 
   <h2 slot="heading">
-    Online 1-on-1 Wordle (v1)
+    Online 1v1 Wordle (v1)
   </h2>
 
   <div slot="subheading" class="dot-list subheading">

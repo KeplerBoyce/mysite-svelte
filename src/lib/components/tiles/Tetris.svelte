@@ -33,5 +33,5 @@
     A simple program to practice perfect clear strategies for modern Tetris games. I always wanted to learn perfect clear openings and loops but couldn't find any good practice tools, so I built this all-in-one learning tool.
   </p>
 
-  <TagList slot="after" entry="minitimer" />
+  <TagList slot="after" entry="tetris" />
 </ImageBlock>

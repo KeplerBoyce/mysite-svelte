@@ -33,5 +33,5 @@
     A simple algorithm trainer website for speedcubers. Uses spaced repetition and allows you to select the specific algorithms you want to train, drastically speeding up the learning process.
   </p>
 
-  <TagList slot="after" entry="minitimer" />
+  <TagList slot="after" entry="cubeTrainer" />
 </ImageBlock>
