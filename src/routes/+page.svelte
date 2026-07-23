@@ -12,6 +12,8 @@
   import Gridlocked from "$lib/components/tiles/Gridlocked.svelte";
   import CubeTrainer from "$lib/components/tiles/CubeTrainer.svelte";
   import Tetris from "$lib/components/tiles/Tetris.svelte";
+  import Advent2025 from "$lib/components/tiles/Advent2025.svelte";
+  import ToyCompiler from "$lib/components/tiles/ToyCompiler.svelte";
 </script>
 
 <div class="flex justify-center">
@@ -39,6 +41,8 @@
     Other Past Projects
   </h1>
 
+  <Advent2025 />
+  <ToyCompiler />
   <Gulpin />
   <CubeScramble />
   <Pokemon />

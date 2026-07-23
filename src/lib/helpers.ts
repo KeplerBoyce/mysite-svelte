@@ -2,7 +2,7 @@ export const toTagClass = (text: string): string => {
     switch (text) {
         case "Svelte":
             return "svelte-tag";
-        case "Typescript":
+        case "TypeScript":
             return "ts-tag";
         case "TailwindCSS":
             return "tailwind-tag";
@@ -20,7 +20,7 @@ export const toTagClass = (text: string): string => {
             return "docker-tag";
         case "Express":
             return "express-tag";
-        case "Javascript":
+        case "JavaScript":
             return "js-tag";
         case "HTML":
             return "html-tag";
@@ -38,6 +38,8 @@ export const toTagClass = (text: string): string => {
         case "Java":
         case "JavaFX":
             return "java-tag";
+        case "OCaml":
+            return "ocaml-tag";
         default:
             return "default-tag";
     }

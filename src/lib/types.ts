@@ -1,22 +1,28 @@
 export const TAGS: {
   [key: string]: string[],
 } = {
+  advent2025: [
+    "OCaml",
+  ],
+  toyCompiler: [
+    "OCaml",
+  ],
   thisSite: [
-    "Typescript",
+    "TypeScript",
     "Svelte",
     "TailwindCSS",
     "CSS",
   ],
   gridlocked: [
     "Rust",
-    "Typescript",
+    "TypeScript",
     "Svelte",
     "PostgreSQL",
     "TailwindCSS",
   ],
   kwordle: [
     "Rust",
-    "Typescript",
+    "TypeScript",
     "Next.js",
     "React",
     "TailwindCSS",
@@ -32,7 +38,7 @@ export const TAGS: {
   ],
   gulpin: [
     "Rust",
-    "Typescript",
+    "TypeScript",
     "PostgreSQL",
     "Redis",
     "Next.js",
@@ -41,12 +47,12 @@ export const TAGS: {
     "Docker",
   ],
   minitimer: [
-    "Typescript",
+    "TypeScript",
     "Svelte",
     "TailwindCSS",
   ],
   cubeTrainer: [
-    "Typescript",
+    "TypeScript",
     "Svelte",
     "TailwindCSS",
   ],
@@ -61,19 +67,19 @@ export const TAGS: {
     "JavaFX",
   ],
   pokemon: [
-    "Typescript",
+    "TypeScript",
     "Next.js",
     "React",
     "TailwindCSS",
   ],
   chordTrainer: [
-    "Typescript",
+    "TypeScript",
     "Next.js",
     "React",
     "TailwindCSS",
   ],
   kwordleOld: [
-    "Javascript",
+    "JavaScript",
     "Express",
     "WebSocket",
     "HTML",
