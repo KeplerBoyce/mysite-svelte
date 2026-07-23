@@ -15,11 +15,9 @@
     </a>
   </div>
 
-  <a slot="heading" href="/gulpin" class="a-heading">
-    <h2 class="heading-hover underline">
-      gulpin.games
-    </h2>
-  </a>
+  <h2 slot="heading">
+    gulpin.games
+  </h2>
 
   <div slot="subheading" class="dot-list subheading">
     <h4>
@@ -32,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A website for playing online 1v1 games with friends, including chess, connect-4, ultimate tic-tac-toe, and more games to come in the future.
+    A website for playing online 1v1 games with friends, including chess, connect-4, ultimate tic-tac-toe, and more. Made in the style of Lichess, but for more kinds of turn-based games.
   </p>
 
   <TagList slot="after" entry="gulpin" />

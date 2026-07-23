@@ -15,11 +15,9 @@
     </a>
   </div>
 
-  <a slot="heading" href="/kwordle" class="a-heading">
-    <h2 class="heading-hover underline">
-      Head-to-Head Wordle Game
-    </h2>
-  </a>
+  <h2 slot="heading">
+    Head-to-Head Wordle Game
+  </h2>
 
   <div slot="subheading" class="dot-list subheading">
     <h4>
@@ -32,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    Online Wordle game that supports lobbies of up to 10 players. Updated and modernized version of old kwordle.app hackathon project, including many additional features and settings to make it fun for everyone.
+    An online Wordle game that supports lobbies of up to 10 players. I like Wordle and wanted to play with friends, so I built this. Solving in fewer guesses gives drastically more points to discourage memorized opening sequences.
   </p>
 
   <TagList slot="after" entry="kwordle" />

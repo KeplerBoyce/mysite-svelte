@@ -8,9 +8,9 @@
   <div slot="left" class="min-w-fit">
     <a href="https://github.com/KeplerBoyce/gunnhacks8" target="_blank">
       <enhanced:img
-        src="$lib/images/placeholder.png"
-        alt="Picture of placeholder"
-        class="img-sm"
+        src="$lib/images/kwordleold.png"
+        alt="Picture of old kwordle website"
+        class="img-sm border"
       />
     </a>
   </div>
@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A real-time 1v1 Wordle game made for the GunnHacks 8.0 hackathon. This was my first experience with web development.
+    A real-time 1v1 Wordle game made for the GunnHacks 8.0 hackathon. This was my first experience with web development, made as a fun way to tag along with the Wordle craze at the time.
   </p>
 
   <TagList slot="after" entry="kwordleOld" />

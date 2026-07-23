@@ -13,11 +13,9 @@
     />
   </div>
 
-  <a slot="heading" href="/about" class="a-heading">
-    <h2 class="heading-hover underline">
-      keplerboyce.com
-    </h2>
-  </a>
+  <h2 slot="heading">
+    keplerboyce.com
+  </h2>
 
   <div slot="subheading" class="dot-list subheading">
     <h4>

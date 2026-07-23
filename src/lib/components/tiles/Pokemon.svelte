@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A very small and silly website built to help myself remember Pokémon type interactions.
+    A very small and silly website to help myself remember Pokémon type interactions (such that I can make strategic moves in Pokémon Chess).
   </p>
 
   <TagList slot="after" entry="pokemon" />

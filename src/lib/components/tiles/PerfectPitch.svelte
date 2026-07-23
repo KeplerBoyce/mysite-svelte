@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A simple desktop app that generates pure sine waves for practicing pitch memory. I built this as a way to practice JavaFX prior to the CS 1331 advanced standing exam at GT, which included JavaFX content.
+    A simple desktop app that generates pure sine waves for practicing pitch memory (and avoid distinguishing by timbre as I would with recorded piano notes used in other practice tools). I used JavaFX to practice for the CS 1331 advanced standing exam at GT, which included some JavaFX content.
   </p>
 
   <TagList slot="after" entry="perfectPitch" />

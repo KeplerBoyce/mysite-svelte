@@ -8,8 +8,8 @@
   <div slot="left" class="min-w-fit">
     <a href="https://github.com/KeplerBoyce/cubescramble" target="_blank">
       <enhanced:img
-        src="$lib/images/placeholder.png"
-        alt="Picture of placeholder"
+        src="$lib/images/cubescramble.png"
+        alt="Picture of cubescramble CLI"
         class="img-sm"
       />
     </a>
@@ -30,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A library that generates random-state scrambles for the 3x3 Rubik's Cube. I originally made this to generate the scrambles for my Minitimer speedcubing timer app, and I plan to come back to this project and add support for other official World Cube Association puzzles in the future as I continue working on Minitimer.
+    A program that generates random-state scrambles for the 3x3 Rubik's Cube. Made as a way to experiment with Rust and solve a problem that requires some interesting algorithms and optimization tricks.
   </p>
 
   <TagList slot="after" entry="cubeScramble" />

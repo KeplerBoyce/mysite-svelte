@@ -12,11 +12,9 @@
     />
   </div>
 
-  <a slot="heading" href="/gamedev" class="a-heading">
-    <h2 class="heading-hover underline">
-      Gamedev Projects
-    </h2>
-  </a>
+  <h2 slot="heading">
+    Gamedev Projects
+  </h2>
 
   <h4 slot="subheading" class="subheading">
     Dec 2023 – ongoing

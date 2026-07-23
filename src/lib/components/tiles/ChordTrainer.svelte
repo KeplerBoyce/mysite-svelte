@@ -8,8 +8,8 @@
   <div slot="left" class="min-w-fit">
     <a href="https://github.com/KeplerBoyce/gunnhacks9" target="_blank">
       <enhanced:img
-        src="$lib/images/placeholder.png"
-        alt="Picture of placeholder"
+        src="$lib/images/sightreading.png"
+        alt="Picture of sightreading practice website"
         class="img-sm"
       />
     </a>

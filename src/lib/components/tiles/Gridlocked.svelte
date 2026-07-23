@@ -15,11 +15,9 @@
     </a>
   </div>
 
-  <a slot="heading" href="/gridlocked" class="a-heading">
-    <h2 class="heading-hover underline">
-      Multiplayer Crossword Platform
-    </h2>
-  </a>
+  <h2 slot="heading">
+    Multiplayer Crossword Platform
+  </h2>
 
   <div slot="subheading" class="dot-list subheading">
     <h4>
@@ -32,7 +30,7 @@
   </div>
 
   <p slot="text" class="w-full">
-    A website for solving crossword puzzles together in real time.
+    A website for solving crossword puzzles together in real time. I made this to solve the lack of multiplayer support in NYT's games app. Uses a custom .puz file parser supporting circled tiles and rebuses.
   </p>
 
   <TagList slot="after" entry="gridlocked" />
