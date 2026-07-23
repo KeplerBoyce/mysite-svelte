@@ -6,11 +6,13 @@
 
 <ImageBlock>
   <div slot="left" class="min-w-fit">
-    <enhanced:img
-      src="$lib/images/gulpin.png"
-      alt="Picture of gulpin.games chess game"
-      class="img-sm"
-    />
+    <a href="https://www.gulpin.games" target="_blank">
+      <enhanced:img
+        src="$lib/images/gulpin.png"
+        alt="Picture of gulpin.games chess game"
+        class="img-sm"
+      />
+    </a>
   </div>
 
   <a slot="heading" href="/gulpin" class="a-heading">
@@ -21,7 +23,7 @@
 
   <div slot="subheading" class="dot-list subheading">
     <h4>
-      June 2023 – ongoing
+      June – Dec 2023
     </h4>
     <Dot />
     <a href="https://www.gulpin.games">

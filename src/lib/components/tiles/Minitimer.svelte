@@ -6,11 +6,13 @@
 
 <ImageBlock>
   <div slot="left" class="min-w-fit">
-    <enhanced:img
-      src="$lib/images/minitimer.png"
-      alt="Picture of Minitimer website"
-      class="img-sm"
-    />
+    <a href="https://minitimer.vercel.app" target="_blank">
+      <enhanced:img
+        src="$lib/images/minitimer.png"
+        alt="Picture of Minitimer website"
+        class="img-md border"
+      />
+    </a>
   </div>
 
   <h2 slot="heading">

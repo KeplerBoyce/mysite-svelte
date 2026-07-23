@@ -6,11 +6,13 @@
 
 <ImageBlock>
   <div slot="left" class="min-w-fit">
-    <enhanced:img
-      src="$lib/images/speedcubetrainer.png"
-      alt="Picture of algorithm trainer"
-      class="img-sm"
-    />
+    <a href="https://speedcubetrainer.vercel.app" target="_blank">
+      <enhanced:img
+        src="$lib/images/speedcubetrainer.png"
+        alt="Picture of algorithm trainer"
+        class="img-md border"
+      />
+    </a>
   </div>
 
   <h2 slot="heading">
@@ -19,7 +21,7 @@
 
   <div slot="subheading" class="dot-list subheading">
     <h4>
-      January – June 2025
+      Jan – June 2025
     </h4>
     <Dot />
     <a href="https://speedcubetrainer.vercel.app">

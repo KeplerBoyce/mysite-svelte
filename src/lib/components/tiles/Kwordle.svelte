@@ -6,11 +6,13 @@
 
 <ImageBlock>
   <div slot="left" class="min-w-fit">
-    <enhanced:img
-      src="$lib/images/kwordle2.png"
-      alt="Picture of kwordle.app game"
-      class="img-sm border"
-    />
+    <a href="https://www.kwordle.app" target="_blank">
+      <enhanced:img
+        src="$lib/images/kwordle2.png"
+        alt="Picture of kwordle.app game"
+        class="img-md border"
+      />
+    </a>
   </div>
 
   <a slot="heading" href="/kwordle" class="a-heading">

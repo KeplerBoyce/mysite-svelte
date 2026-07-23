@@ -19,7 +19,7 @@
   </a>
 
   <h4 slot="subheading" class="subheading">
-    December 2023 – ongoing
+    Dec 2023 – ongoing
   </h4>
 
   <p slot="text" class="w-full">

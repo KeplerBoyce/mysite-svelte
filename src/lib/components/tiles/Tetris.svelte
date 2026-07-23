@@ -6,11 +6,13 @@
 
 <ImageBlock>
   <div slot="left" class="min-w-fit">
-    <enhanced:img
-      src="$lib/images/tetris.png"
-      alt="Picture of Tetris PC trainer"
-      class="img-sm"
-    />
+    <a href="https://github.com/KeplerBoyce/tetris-tool" target="_blank">
+      <enhanced:img
+        src="$lib/images/tetris.png"
+        alt="Picture of Tetris PC trainer"
+        class="img-md"
+      />
+    </a>
   </div>
 
   <h2 slot="heading">
@@ -22,8 +24,8 @@
       May – July 2025
     </h4>
     <Dot />
-    <a href="https://minitimer.vercel.app">
-      minitimer.vercel.app
+    <a href="https://github.com/KeplerBoyce/tetris-tool">
+      github.com/KeplerBoyce/tetris-tool
     </a>
   </div>
 

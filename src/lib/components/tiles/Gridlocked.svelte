@@ -6,11 +6,13 @@
 
 <ImageBlock>
   <div slot="left" class="min-w-fit">
-    <enhanced:img
-      src="$lib/images/gridlocked.png"
-      alt="Picture of gridlocked.dev crossword puzzle"
-      class="img-sm"
-    />
+    <a href="https://www.gridlocked.dev" target="_blank">
+      <enhanced:img
+        src="$lib/images/gridlocked.png"
+        alt="Picture of gridlocked.dev crossword puzzle"
+        class="img-md"
+      />
+    </a>
   </div>
 
   <a slot="heading" href="/gridlocked" class="a-heading">

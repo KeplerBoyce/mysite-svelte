@@ -6,11 +6,13 @@
 
 <ImageBlock>
   <div slot="left" class="min-w-fit">
-    <enhanced:img
-      src="$lib/images/pokemon.png"
-      alt="Picture of Pokémon type practice website"
-      class="img-sm border"
-    />
+    <a href="https://keplerboyce.github.io/pokemon-type-trainer/" target="_blank">
+      <enhanced:img
+        src="$lib/images/pokemon.png"
+        alt="Picture of Pokémon type practice website"
+        class="img-sm border"
+      />
+    </a>
   </div>
 
   <h2 slot="heading">
@@ -22,7 +24,7 @@
       June 2023
     </h4>
     <Dot />
-    <a href="https://keplerboyce.github.io/pokemon-type-trainer/">
+    <a href="https://keplerboyce.github.io/pokemon-type-trainer">
       keplerboyce.github.io/pokemon-type-trainer
     </a>
   </div>
