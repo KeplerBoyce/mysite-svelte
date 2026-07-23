@@ -13,7 +13,7 @@
   </div>
 
   <h2 slot="heading">
-    kwordle.app (old)
+    Online 1-on-1 Wordle (v1)
   </h2>
 
   <h4 slot="subheading" class="subheading">

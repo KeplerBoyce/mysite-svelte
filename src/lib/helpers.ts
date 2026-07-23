@@ -1,6 +1,5 @@
 export const toTagClass = (text: string): string => {
     switch (text) {
-        case "SvelteKit":
         case "Svelte":
             return "svelte-tag";
         case "Typescript":
@@ -12,7 +11,6 @@ export const toTagClass = (text: string): string => {
         case "React":
             return "react-tag";
         case "Rust":
-        case "Actix":
             return "rust-tag";
         case "PostgreSQL":
             return "postgres-tag";
@@ -20,8 +18,6 @@ export const toTagClass = (text: string): string => {
             return "redis-tag";
         case "Docker":
             return "docker-tag";
-        case "Tauri":
-            return "tauri-tag";
         case "Express":
             return "express-tag";
         case "Javascript":

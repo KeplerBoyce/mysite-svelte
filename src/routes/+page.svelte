@@ -4,32 +4,45 @@
   import Gulpin from "$lib/components/tiles/Gulpin.svelte";
   import Kwordle from "$lib/components/tiles/Kwordle.svelte";
   import Minitimer from "$lib/components/tiles/Minitimer.svelte";
-  import KwordleOld from "$lib/components/tiles/KwordleOld.svelte";
-  import Pokemon from "$lib/components/tiles/Pokemon.svelte";
-  import PerfectPitch from "$lib/components/tiles/PerfectPitch.svelte";
-  import Gamedev from "$lib/components/tiles/Gamedev.svelte";
   import CubeScramble from "$lib/components/tiles/CubeScramble.svelte";
   import ChordTrainer from "$lib/components/tiles/ChordTrainer.svelte";
-  import ThisSite from "$lib/components/tiles/ThisSite.svelte";
+  import PerfectPitch from "$lib/components/tiles/PerfectPitch.svelte";
+  import Pokemon from "$lib/components/tiles/Pokemon.svelte";
+  import KwordleOld from "$lib/components/tiles/KwordleOld.svelte";
+  import Gridlocked from "$lib/components/tiles/Gridlocked.svelte";
+  import CubeTrainer from "$lib/components/tiles/CubeTrainer.svelte";
+  import Tetris from "$lib/components/tiles/Tetris.svelte";
 </script>
 
 <div class="flex justify-center">
   <Hello />
 </div>
+
 <DivideY />
+
 <div class="flex flex-col gap-12 items-center">
   <h1>
-    Projects
+    Main Projects
   </h1>
 
-  <ThisSite />
+  <Gridlocked />
   <Kwordle />
-  <Gamedev />
-  <Gulpin />
+  <Tetris />
   <Minitimer />
+  <CubeTrainer />
+</div>
+
+<DivideY />
+
+<div class="flex flex-col gap-12 items-center">
+  <h1>
+    Other Past Projects
+  </h1>
+
+  <Gulpin />
   <CubeScramble />
-  <PerfectPitch />
   <Pokemon />
   <ChordTrainer />
+  <PerfectPitch />
   <KwordleOld />
 </div>

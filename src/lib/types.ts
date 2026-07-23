@@ -1,17 +1,21 @@
 export const TAGS: {
-    [key: string]: string[],
+  [key: string]: string[],
 } = {
   thisSite: [
-    "SvelteKit",
     "Svelte",
     "Typescript",
     "TailwindCSS",
     "CSS",
   ],
+  gridlocked: [
+    "Rust",
+    "PostgreSQL",
+    "Svelte",
+    "Typescript",
+    "TailwindCSS",
+  ],
   kwordle: [
     "Rust",
-    "Actix",
-    "SSE",
     "Next.js",
     "React",
     "Typescript",
@@ -28,10 +32,8 @@ export const TAGS: {
   ],
   gulpin: [
     "Rust",
-    "Actix",
     "PostgreSQL",
     "Redis",
-    "SSE",
     "Next.js",
     "React",
     "Typescript",
@@ -39,14 +41,19 @@ export const TAGS: {
     "Docker",
   ],
   minitimer: [
-    "Rust",
-    "Tauri",
-    "Next.js",
-    "React",
+    "Svelte",
+    "Typescript",
+    "TailwindCSS",
+  ],
+  cubetrainer: [
+    "Svelte",
     "Typescript",
     "TailwindCSS",
   ],
   cubeScramble: [
+    "Rust",
+  ],
+  tetris: [
     "Rust",
   ],
   perfectPitch: [

@@ -15,7 +15,7 @@
 
   <a slot="heading" href="/kwordle" class="a-heading">
     <h2 class="heading-hover underline">
-      kwordle.app v2
+      Head-to-Head Wordle Game
     </h2>
   </a>
 

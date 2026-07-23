@@ -7,19 +7,19 @@
 <ImageBlock>
   <div slot="left" class="min-w-fit">
     <enhanced:img
-      src="$lib/images/minitimer.png"
-      alt="Picture of Minitimer website"
+      src="$lib/images/tetris.png"
+      alt="Picture of Tetris PC trainer"
       class="img-sm"
     />
   </div>
 
   <h2 slot="heading">
-    Speedcubing Timer
+    Tetris Perfect Clear Trainer
   </h2>
 
   <div slot="subheading" class="dot-list subheading">
     <h4>
-      August 2023 – ongoing
+      May – July 2025
     </h4>
     <Dot />
     <a href="https://minitimer.vercel.app">
