@@ -12,7 +12,7 @@
 <DivideY />
 
 <div class="flex flex-col gap-16 md:gap-12 items-center">
-  <h1>
+  <h1 class="text-center">
     Main Projects
   </h1>
 
@@ -24,7 +24,7 @@
 <DivideY />
 
 <div class="flex flex-col gap-16 md:gap-12 items-center">
-  <h1>
+  <h1 class="text-center">
     Other Past Projects
   </h1>
 

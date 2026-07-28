@@ -11,15 +11,15 @@
     />
   </div>
 
-  <h1 slot="heading" class="mb-2">
+  <h1 slot="heading" class="mb-2 text-center md:text-left">
     Hi, I'm Kepler!
   </h1>
 
   <svelte:fragment slot="text">
-    <p class="w-full">
+    <p class="w-full text-base ssm:text-lg">
       I'm a 4th-year computer science student at Georgia Tech, studying the Systems & Architecture and Intelligence concentrations. I am also minoring in robotics, which allows me to take several exciting ECE courses.
     </p>
-    <p class="w-full">
+    <p class="w-full text-base ssm:text-lg">
       This website showcases some of the projects I have made in my free time. I love learning new programming languages and technologies, so many of these projects were built to solve real problems while exploring new concepts.
     </p>
   </svelte:fragment>

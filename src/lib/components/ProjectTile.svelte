@@ -26,23 +26,26 @@
     {/if}
   </div>
 
-  <h2 slot="heading">
+  <h2 slot="heading" class="text-center md:text-left text-xl ssm:text-3xl">
     {project.title}
   </h2>
 
   <div slot="subheading" class="dot-list subheading justify-center md:justify-start">
-    <h4>
+    <h4 class="whitespace-nowrap text-xs ssm:text-base">
       {project.date}
     </h4>
     {#if project.link && project.linkText}
       <Dot />
-      <a href={project.link}>
+      <a href={project.link} class="hidden xs:block text-xs ssm:text-base">
         {project.linkText}
+      </a>
+      <a href={project.link} class="block xs:hidden text-xs ssm:text-base">
+        Link
       </a>
     {/if}
   </div>
 
-  <p slot="text" class="w-full">
+  <p slot="text" class="w-full text-sm ssm:text-base">
     {project.text}
   </p>
 

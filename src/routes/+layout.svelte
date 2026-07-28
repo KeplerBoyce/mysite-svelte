@@ -14,7 +14,7 @@
 
 <div class={`h-full flex flex-col transition-colors duration-300 ${$dark ? "dark" : ""}`}>
   <Header />
-  <div class="grow overflow-y-scroll p-8 pt-24 pb-16 flex flex-col items-center">
+  <div class="grow overflow-y-scroll p-2 md:p-8 pt-4 md:pt-24 pb-16 flex flex-col items-center">
     <slot />
   </div>
 </div>

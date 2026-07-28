@@ -6,7 +6,7 @@
 </script>
 
 <div class={`px-2 py-0.5 rounded-full text-white ${tagClass}`}>
-  <p class="text-sm tag-text">
+  <p class="tag-text text-xs ssm:text-sm">
     {text}
   </p>
 </div>
