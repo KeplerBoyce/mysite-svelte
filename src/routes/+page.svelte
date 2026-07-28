@@ -1,6 +1,6 @@
 <script lang="ts">
   import DivideY from "$lib/components/DivideY.svelte";
-  import Hello from "$lib/components/tiles/Hello.svelte";
+  import Hello from "$lib/components/Hello.svelte";
   import ProjectTile from "$lib/components/ProjectTile.svelte";
   import { MAIN_PROJECTS, OTHER_PROJECTS } from "$lib/data/projects";
 </script>
@@ -11,7 +11,7 @@
 
 <DivideY />
 
-<div class="flex flex-col gap-12 items-center">
+<div class="flex flex-col gap-16 md:gap-12 items-center">
   <h1>
     Main Projects
   </h1>
@@ -23,7 +23,7 @@
 
 <DivideY />
 
-<div class="flex flex-col gap-12 items-center">
+<div class="flex flex-col gap-16 md:gap-12 items-center">
   <h1>
     Other Past Projects
   </h1>

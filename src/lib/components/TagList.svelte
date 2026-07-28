@@ -5,7 +5,7 @@
   export let entry: string;
 </script>
 
-<div class="tags">
+<div class="tags justify-center md:justify-start">
   {#each TAGS[entry] as tag}
     <Tag text={tag} />
   {/each}

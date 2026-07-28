@@ -30,7 +30,7 @@
     {project.title}
   </h2>
 
-  <div slot="subheading" class="dot-list subheading">
+  <div slot="subheading" class="dot-list subheading justify-center md:justify-start">
     <h4>
       {project.date}
     </h4>
